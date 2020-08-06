@@ -10,7 +10,7 @@ Install:
 ```
 sudo docker build -t pathway:24.0 .
 ```
-Run:
+Run (5008 default pythoncyc scoket connection):
 ```
 sudo docker run -p 5008:5008  pathway:24.0
 ```
