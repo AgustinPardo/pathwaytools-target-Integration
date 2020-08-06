@@ -22,6 +22,8 @@ RUN /opt/bin/install-pathway-tools.sh
 
 CMD [ "/opt/bin/run-pathway-tools.sh" ]
 
+# Test
 # docker build -t pathway:24.0 .
 # docker run --volume `pwd`:/mnt --publish 1555:1555 --rm --name pathway -it pathway:24.0 /bin/bash
 # docker exec pathway:24.0 /opt/pathway-tools/pathway-tools -python
+
