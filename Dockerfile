@@ -10,7 +10,6 @@ RUN apt-get update && \
 #Agregue dependencia
 RUN apt-get install -y libxm4
 
-COPY ptools-init.dat /opt/data/ptools-local/ptools-init.dat
 COPY install-pathway-tools.sh /opt/bin/install-pathway-tools.sh
 COPY run-pathway-tools.sh /opt/bin/run-pathway-tools.sh
 COPY pathway-tools-24.0-linux-64-tier1-install /opt/bin/pathway-tools-24.0-linux-64-tier1-install
@@ -20,10 +19,12 @@ RUN chmod 777 /opt/bin/pathway-tools-24.0-linux-64-tier1-install
 
 RUN /opt/bin/install-pathway-tools.sh
 
-CMD [ "/opt/bin/run-pathway-tools.sh" ]
+#CMD [ "/opt/bin/run-pathway-tools.sh" ]
 
 # Test
 # docker build -t pathway:24.0 .
 # docker run --volume `pwd`:/mnt --publish 1555:1555 --rm --name pathway -it pathway:24.0 /bin/bash
 # docker exec pathway:24.0 /opt/pathway-tools/pathway-tools -python
+# sudo docker run --volume $PWD:/mnt -p 5008:5008  pathway:24.0
+
 
