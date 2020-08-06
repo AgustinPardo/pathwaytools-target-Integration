@@ -4,7 +4,7 @@ Requirements:
 
 docker
 
-PathwayTools installer
+PathwayTools installer linux-64
 
 Install:
 ```
