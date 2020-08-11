@@ -17,7 +17,7 @@ sudo docker build -t pathway:24.0 .
 ```
 sudo docker run --name pathwaytools --volume $PWD:/localData --volume $PWD/PGDBs:/opt/data/ptools-local/pgdbs -d -p 5008:5008 pathway:24.0 
 ```
-This comand links the . directory to localData container directory, and create the PGDB folder where the PGDBs reconstructions are stored. Also start a python server that listen in port 5008 to be queried using pythoncyc library (5008 default pythoncyc socket connection).
+This comand links the . directory to localData container directory, and create the PGDB folder where the PGDBs reconstructions are stored. Also start a python server that listen on port 5008 to be queried using pythoncyc library (5008 default pythoncyc socket connection).
 
 
 ### Create the PGDB:
