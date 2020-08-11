@@ -1,0 +1,244 @@
+LOCUS       CP003995                5065 bp    DNA              BCT 06-MAY-2014
+DEFINITION  Klebsiella pneumoniae subsp. pneumoniae Kp13 plasmid pKP13c,
+            complete sequence.
+ACCESSION   CP003995
+VERSION     CP003995.1  GI:569550048
+DBLINK      BioProject: PRJNA78291 BioSample: SAMN02641520
+KEYWORDS    .
+SOURCE      Klebsiella pneumoniae subsp. pneumoniae Kp13
+  ORGANISM  Klebsiella pneumoniae subsp. pneumoniae Kp13
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Klebsiella.
+REFERENCE   1  (bases 1 to 5065)
+  AUTHORS   Ramos,P.I., Picao,R.C., Almeida,L.G., Lima,N.C., Girardello,R.,
+            Vivan,A.C., Xavier,D.E., Barcellos,F.G., Pelisson,M., Vespero,E.C.,
+            Medigue,C., Vasconcelos,A.T., Gales,A.C. and Nicolas,M.F.
+  TITLE     Comparative analysis of the complete genome of KPC-2-producing
+            Klebsiella pneumoniae Kp13 reveals remarkable genome plasticity and
+            a wide repertoire of virulence and resistance mechanisms
+  JOURNAL   BMC Genomics 15, 54 (2014)
+   PUBMED   24450656
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 5065)
+  AUTHORS   Perreira,P.I., Picao,R.C., Almeida,L.G.P., Vespero,E.C.,
+            Pelisson,M., Vivan,A.C.P., Zuleta,L.F.G., Barcellos,F.G.,
+            Lima,N.C.B., Xavier,D.E., Girardello,R., Medigue,C.,
+            Vasconcelos,A.T.R., Gales,A.C. and Nicolas,M.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-DEC-2012) Labinfo, LNCC - Laboratorio Nacional de
+            Computacao Cientifica, Rua Getulio Vargas 333, Petropolis, RJ
+            25651070, Brazil
+FEATURES             Location/Qualifiers
+     source          1..5065
+                     /sub_species="pneumoniae"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:1123862"
+                     /collection_date="2009"
+                     /country="Brazil"
+                     /isolation_source="blood"
+                     /strain="Kp13"
+                     /host="Homo sapiens"
+                     /plasmid="pKP13c"
+                     /organism="Klebsiella pneumoniae subsp. pneumoniae Kp13"
+     gene            complement(117..407)
+                     /locus_tag="KP13_32122"
+     CDS             complement(117..407)
+                     /locus_tag="KP13_32122"
+                     /codon_start=1
+                     /product="insertion sequence IS1"
+                     /transl_table=11
+                     /note="identified by sequence similarity; putative"
+                     /db_xref="GI:569550049"
+                     /translation="MTLSCSSTDFENDSDFRPSRARCCLRFRLCRSIRCVYRLLITCSF
+                     PFRRDSYSGQPSVIHITTSKGDSRLIRRPSVAIVRSPNTCATTVFRSLSYA"
+                     /protein_id="AHE41790.1"
+     gene            complement(435..845)
+                     /locus_tag="KP13_06779"
+                     /gene="excl"
+     CDS             complement(435..845)
+                     /locus_tag="KP13_06779"
+                     /codon_start=1
+                     /product="entry exclusion protein 1 (Exc1)"
+                     /transl_table=11
+                     /note="identified by sequence similarity; putative"
+                     /db_xref="GI:569550050"
+                     /translation="MARVSISEAARLTGKSRTTLHRLIKAGDLSTCSGERNAKMVDTSE
+                     LLRVFGPFEQPKGEHHSGQVSGQRDTASADQSEQVIRHLKQEIEHLNTLLLSKDSHIDS
+                     LKQAMLLLENHQAKLTESPAPWWKFWVMTPTY"
+                     /gene="excl"
+                     /protein_id="AHE41791.1"
+     gene            complement(845..1036)
+                     /locus_tag="KP13_06780"
+                     /gene="rop"
+     CDS             complement(845..1036)
+                     /locus_tag="KP13_06780"
+                     /codon_start=1
+                     /product="Regulatory protein rop"
+                     /transl_table=11
+                     /note="identified by sequence similarity; putative"
+                     /db_xref="GI:569550051"
+                     /translation="MTKQQKTALNMAKFIQNQSLLLLEKLNELDLDVEADLCEKLHDDA
+                     EHLFRTLSSRLDALQDGN"
+                     /gene="rop"
+                     /protein_id="AHE41792.1"
+     gene            1221..1427
+                     /locus_tag="KP13_32111"
+     CDS             1221..1427
+                     /locus_tag="KP13_32111"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /transl_table=11
+                     /note="identified by sequence similarity; putative"
+                     /db_xref="GI:569550052"
+                     /translation="MGSAPLTSITESDAQISGGETRQDYKDTRRFPLMAPSCALLFLPF
+                     GLPVSFRCYGRVCLIPRLTLSSG"
+                     /protein_id="AHE41793.1"
+     gene            1967..2479
+                     /locus_tag="KP13_32112"
+     CDS             1967..2479
+                     /locus_tag="KP13_32112"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /db_xref="GI:569550053"
+                     /translation="MKDFKYHSWEKQLRENIYTGCYFCFYDVKNPAVLLNIQAFRKEMA
+                     EINKNKPFWVSYFHDMDTSQKMSIVIRDERSEVTQTYETETNQRLESSLSLNVDTVLSN
+                     QNIPRQTIGSQATVNSLKINVTETPNAKNRVSNKLFSMQLKEDGVEIKSEIKTKGMGLI
+                     INLRQQQ"
+                     /protein_id="AHE41794.1"
+     gene            2579..3019
+                     /locus_tag="KP13_32113"
+     CDS             2579..3019
+                     /locus_tag="KP13_32113"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /db_xref="GI:569550054"
+                     /translation="MDDRIVDIAISAIGNNKEIYLDIGFSELNEISMLGEGISRALSFI
+                     SSVLVQENSIILIDEIENGIHYSVIKDIIKSLISSAKQNNNQIFATTHSQDVIRAINEI
+                     DSKNEDIAYIRLGREKNSLKPTAVQFNMDDFSYSVENDWEVR"
+                     /protein_id="AHE41795.1"
+     gene            3028..3522
+                     /locus_tag="KP13_32114"
+     CDS             3028..3522
+                     /locus_tag="KP13_32114"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /db_xref="GI:569550055"
+                     /translation="MNNSKKIIFVEGDDDFHFLCNLLEIQGITDVFVEKINGKSKLKQA
+                     LRAFKNIDSFDEKESIFIILDADTSFSDTERSIIATLRELQISSPSSHNEIAMNGNTKI
+                     SFFIMPGKDKQGAIEDLIIEHASTRALYEYIIEFFEKLKIIKMTSQRVTKSTLIQQTKK
+                     S"
+                     /protein_id="AHE41796.1"
+     gene            complement(3908..4234)
+                     /locus_tag="KP13_32115"
+     CDS             complement(3908..4234)
+                     /locus_tag="KP13_32115"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /transl_table=11
+                     /db_xref="GI:569550056"
+                     /translation="MNRVVSRPATCHNVIAGRRRTRFLKVLKTGFPAAPATLHGHAINC
+                     VPVHRFRRRRTPETGLPLAEWCEFPRYALARILMHAVKTEPARFWRVFGWFVACFTGFP
+                     SETS"
+                     /protein_id="AHE41797.1"
+     gene            4679..4954
+                     /locus_tag="KP13_32116"
+     CDS             4679..4954
+                     /locus_tag="KP13_32116"
+                     /codon_start=1
+                     /product="insertion element IS1 protein insA"
+                     /transl_table=11
+                     /note="identified by sequence similarity; putative"
+                     /db_xref="GI:569550057"
+                     /translation="MASVSISCPSCSATDGVVRNGKSTAGHQRYLCSHCRKTWQLQFTY
+                     TASQPGTHQKIIDMAMNGVGCRATARIMGVGLNTIFRHLKNSGRSR"
+                     /protein_id="AHE41798.1"
+ORIGIN
+        1 ctcaggccgc agtcggtaac ctcgcgcata cagccgggca gtgacgtcat cgtctgcgcg
+       61 gaaatggacg aacagtgggg atacgtcggg gctaaatcgc gccagcgctg gctgttttac
+      121 gcgtatgaca ggctccggaa gacggttgtt gcgcacgtat tcggtgaacg cactatggcg
+      181 acgctggggc gtcttatgag cctgctgtca ccctttgacg tggtgatatg gatgacggat
+      241 ggctggccgc tgtatgaatc ccgcctgaag ggaaagctgc acgtaatcag caagcgatat
+      301 acgcagcgaa ttgagcggca taacctgaat ctgaggcagc acctggcacg gctgggacgg
+      361 aagtcgctgt cgttctcaaa atcggtggag ctgcatgaca aagtcatcgg gcattatctg
+      421 aacataaaac actatcaata agttggagtc attacccaga atttccacca tggcgccggg
+      481 gattcagtta attttgcctg gtgattttca agaaggagca tggcctgttt caggctgtca
+      541 atgtgcgaat ccttggacaa aagtaaggtg ttcaggtgtt caatctcctg tttcagatga
+      601 cggatcacct gttcactctg gtcagcagag gctgtatcac gctgtccaga gacctgtcca
+      661 gaatggtgtt cacccttcgg ttgctcaaag gggccaaaga cacgtaaaag ctctgaagta
+      721 tctaccattt ttgcattgcg ctcaccgcta caggtggaca ggtcacctgc tttaattaac
+      781 ctgtgcagtg ttgttctact cttacccgtc agtcgggcag cctcactaat agacactctg
+      841 gccatcagtt accatcctgt aatgcatcca gtctcgagga cagtgtacgg aaaagatgct
+      901 ccgcatcatc gtggagtttc tcacaaaggt cggcctcgac atcgagatca agctcgttaa
+      961 gcttctccag caggagcaga gactgattct ggatgaattt agccatattc agcgctgttt
+     1021 tctgttgttt cgtcataaga ggcctcagag cgtcagtggt cagtgtaggg atctcctctt
+     1081 ttccgcttcc tcgctcactc agtcgctacg ctcctgccgt tcggctgcgg cgagcggcag
+     1141 gagcatgcgt agaaacgctc gagaaaaccg agtaatcgca tggaggaaag aaggaaaggc
+     1201 cgcacagcgg ccgtttttcc ataggctccg cccccctgac gagcatcacg gaatctgacg
+     1261 ctcaaatcag tggtggcgaa acccgacagg actataaaga taccaggcgt ttccccctga
+     1321 tggctccctc gtgcgctctc ctgttcctgc ctttcggttt accggtgtca ttccgctgtt
+     1381 atggccgcgt ttgtctcatt ccacgcctga cactcagttc cgggtaggca gttcgctcca
+     1441 agctggactg tatgcacgaa ccccccgttc agtccgactg ctgcgcctta tccggtaact
+     1501 atcgtcttga gtccaacccg gaaagacacg acaaagcgcc actggcagca gccactggta
+     1561 actgatttag ggagttagtc ttgaagttat acgccagtta aagctaaact aaacgaacag
+     1621 ttttggtgac tgcgctccct ttaagccagt tacctcggtt catagagcgc caactctact
+     1681 gaacctttcg aaaaaaccgc ccgccaaggc ggttttttcg ttcacagccg gaagcttacg
+     1741 gctgctgcca gataatctca agaagaaagt aaaaaaatcg attaaaacac aagcaatcaa
+     1801 agttaatctt tgacataaag tctagctaat cacaatgaaa gctgtacatt ttattaaggt
+     1861 actaacaaat cgtatggcat ataacaaaaa cacgaacaga ggctatcatg ataaaggaaa
+     1921 taagtttaaa gaacttcaaa tgcttcaatg agctatatct aaagcaatta aagactttaa
+     1981 atatcatagc tgggaaaaac aactacggga aaacatctat actggatgct atttttgttt
+     2041 ttatgatgta aaaaacccgg ctgttttgtt aaacattcaa gcattcagaa aagaaatggc
+     2101 agaaataaac aaaaacaagc cattttgggt tagttacttt catgatatgg acacatcaca
+     2161 aaagatgtcc atagtcattc gagatgaacg ctctgaagta acacaaacat atgaaacaga
+     2221 aacaaatcag agattagaat caagtttgtc tctaaacgtt gacaccgtac tatctaacca
+     2281 aaacatacct cgtcaaacta tcggttctca ggccacagta aactctttaa aaataaatgt
+     2341 gaccgagaca cccaatgcga aaaacagggt ttccaataag cttttctcta tgcaattgaa
+     2401 agaagatggc gtagaaataa aatccgaaat aaaaacgaaa gggatgggat taattataaa
+     2461 tttaagacag caacaataat aacaacatcc agaaagataa acaaagaggc aacaattaca
+     2521 aatgtatcta gcctactaac acaaaaaagg aaaaagacat actagaaaac ttaaaaaaat
+     2581 agatgacaga attgtagata tagcaatatc tgcgataggt aacaataagg aaatatattt
+     2641 agacattgga tttagtgagc taaatgaaat atcaatgctt ggcgagggta tcagtcgagc
+     2701 attatctttt atcagctcag tgctggtaca ggaaaactca attattctta ttgatgaaat
+     2761 cgagaacgga atacattact cagtaattaa agacataata aaatcattaa tttcatctgc
+     2821 aaaacaaaac aacaatcaaa tatttgcaac aactcatagt caagatgtga tacgagcaat
+     2881 aaacgaaata gatagcaaaa atgaagatat cgcttatatt agactaggaa gagaaaagaa
+     2941 ctccctaaaa ccaacagccg tacaattcaa tatggatgat ttctcctact cagttgagaa
+     3001 cgactgggag gtaagataat gaaagacata aataatagca aaaagatcat tttcgttgag
+     3061 ggtgatgatg attttcattt tctatgcaac ctacttgaaa tacaaggcat taccgatgtt
+     3121 tttgtcgaaa aaataaatgg aaaatcaaaa ttaaaacaag cacttagagc attcaaaaac
+     3181 attgattctt tcgatgaaaa agaaagtatt tttattatat tagatgctga cacatcattt
+     3241 tctgacacag aaagatcaat aattgccaca ttgcgagaac tacaaatctc ctcccccagc
+     3301 tcgcataacg agatagctat gaatggcaat acaaaaattt ctttctttat aatgccagga
+     3361 aaagacaagc aaggtgccat tgaagatctg ataattgaac acgcaagcac tcgagcgtta
+     3421 tatgaataca taatagaatt tttcgaaaaa ttaaaaataa taaagatgac atctcagcga
+     3481 gtgacaaaga gtacacttat ccaacaaacg aaaaaaagct aaggtacaag tctatcttag
+     3541 ctgcaataga gaatccgact caagaatagg aatatccatg aaaaatggaa taataaacac
+     3601 agcagacaat tgctttgatg aaataaaaga ttttatttca aaaatataaa tccaaatcaa
+     3661 gccagccctt cacgggctgg cttatcacca gggtgttatt aaacgccgga taacgtatag
+     3721 aaagcatcat acactttagt tatcagcaat ctcaaacgtc ctaaagacat caccagatgc
+     3781 caaaacaatg attgtgcaga tctaatgtaa aagacccagc acaagatgct cccttaagtt
+     3841 atattctctc tattcactta aaacaattta acataaaatc ataattgtac gcaccgctaa
+     3901 aacggactca ggacgtttct gacgggaaac cggtaaaaca ggcaacaaac cacccgaaaa
+     3961 cccgccagaa acgcgcaggc tctgttttta cggcatgcat gagtatgcgc gcaagtgcat
+     4021 agcgcggaaa ttcacaccat tcagccaggg gaagtcctgt ttccggcgtt cttctcctcc
+     4081 gaaaacggtg aacggggacg caatttattg cgtggccgtg aagcgttgcc ggcgcagccg
+     4141 gaaaaccggt tttcagcacc ttcaggaatc gggttcgtcg acggccggca atcacgttat
+     4201 ggcaagtcgc cggacgactc accacacgat tcaccggcga ttcgaatcgt gaattgaatc
+     4261 aagagtcacc atgagcaaaa aacacccaaa gtgatgaatt gaatcaagag tcgattcatc
+     4321 ataacaatat gataataaag cgtgattcac atatgaatcg tgggcaattc gtcagcgatt
+     4381 cgccatagag tcgtccacga cttggatctg cactttgtaa cacatcaccg cacatttatt
+     4441 tttcattaac ccattgttgt aaataaggaa tctgcaaaat tttaattttg cgtggggtgt
+     4501 gggtattttt agtggtgagg agcgttcaga gatctgacga tttttgggaa ggttcaggaa
+     4561 ctccctggga tggccggaga ggaaaactga agcatgacgg ggtcaggatt ttttccagaa
+     4621 tttggtgatg ctgccaactt actgatttag tgtatgatgg tgtttttgag gtgctccagt
+     4681 ggcttctgtt tctatcagct gtccctcctg ttcagctact gacggggtgg tgcgtaacgg
+     4741 caaaagcacc gccggacatc agcgctatct ctgctctcac tgccgtaaaa catggcaact
+     4801 gcagttcact tacaccgctt ctcaacccgg tacgcaccag aaaatcattg atatggccat
+     4861 gaatggcgtt ggatgccggg caaccgcccg cattatgggc gttggcctca acacgatttt
+     4921 ccgccattta aaaaactcag gccgcagtcg gtaacctcgc gcatacagcc gggcagtgac
+     4981 gtcatcgtct gcgcggaaat ggacgaacag tggggatacg tcggggctaa atcgcgccag
+     5041 cgctggctgt tttacgcgta tgaca
+//

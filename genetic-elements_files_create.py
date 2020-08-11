@@ -2,7 +2,7 @@ import Bio.SeqIO as bpio
 
 genetic_elements_file=open("genetic-elements.dat","w")
 
-contigs = list(bpio.parse("Kp13_Genome_pruebas.gbk", "gb"))
+contigs = list(bpio.parse("pwtools.gb", "gb"))
 
 for contig in contigs:
 	bpio.write(contig, contig.id+".gbk", "gb")

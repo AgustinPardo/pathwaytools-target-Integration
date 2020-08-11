@@ -26,8 +26,7 @@ RUN chmod 777 /opt/bin/pathway-tools-24.0-linux-64-tier1-install
 
 RUN /opt/bin/install-pathway-tools.sh
 
-#CMD [ "/opt/bin/run-pathway-tools.sh" ]
-
+CMD [ "/opt/bin/run-pathway-tools.sh" ]
 
 
 # Test
@@ -41,3 +40,6 @@ RUN /opt/bin/install-pathway-tools.sh
 
 #sudo docker run --volume $PWD:/localData --volume $PWD/PGDBs:/opt/data/ptools-local/pgdbs -it -p 5008:5008 pathway:24.0
 
+
+#1#sudo docker run --name pathwaytools --volume $PWD:/localData --volume $PWD/PGDBs:/opt/data/ptools-local/pgdbs -d -p 5008:5008 pathway:24.0 
+#2#sudo docker exec pathwaytools bash opt/pathway-tools/pathway-tools  -no-cel-overview -no-web-cel-overview -patho localData/test_kp13
