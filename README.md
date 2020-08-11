@@ -8,7 +8,7 @@ pythoncyc
 
 PathwayTools installer linux-64
 
-### Install:
+### Install (image size: 3.89GB):
 ```
 sudo docker build -t pathway:24.0 .
 ```
