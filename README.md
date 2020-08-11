@@ -6,7 +6,7 @@ docker
 
 pythoncyc
 
-PathwayTools installer linux-64 (https://biocyc.org/download-bundle.shtml)
+PathwayTools installer linux-64 24.0 (https://biocyc.org/download-bundle.shtml)
 
 ### Install (image size: 3.89GB):
 ```
