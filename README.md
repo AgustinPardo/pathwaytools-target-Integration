@@ -4,6 +4,8 @@
 
 docker
 
+pythoncyc
+
 PathwayTools installer linux-64
 
 ### Install:
