@@ -1,5 +1,12 @@
 # pathwaytools-target-Integration
 
+|         |                                                                       |
+| ------- | --------------------------------------------------------------------- |
+| Authors | Agustin Maria Pardo)    |
+| Github  | [AgustinPardo](https://github.com/AgustinPardo/)                     |
+| Email   | <agustinmpardo@gmail.com>     
+
+
 ### Requirements:
 
 docker
