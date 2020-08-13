@@ -2,7 +2,7 @@
 
 |         |                                                                       |
 | ------- | --------------------------------------------------------------------- |
-| Authors | Agustin Maria Pardo)    |
+| Authors | Agustin Maria Pardo    |
 | Github  | [AgustinPardo](https://github.com/AgustinPardo/)                     |
 | Email   | <agustinmpardo@gmail.com>     
 
