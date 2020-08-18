@@ -28,7 +28,7 @@ mysql -u pathwaytools -p -h localhost test_db_sql4 < aic-export/mysql/pgdb-schem
 3) 
 
 #Realizo la reconstruccion (En este caso con -patho)
-sudo ./pathway-tools  -no-cel-overview -no-web-cel-overview -patho /home/agustin/workspace/pathwaytet-integration/test_pt_sql/
+sudo ./pathway-tools  -no-cel-overview -no-web-cel-overview -patho /test_pt_sql/
 
 4) 
 
