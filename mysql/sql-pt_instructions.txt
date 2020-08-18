@@ -1,0 +1,40 @@
+Requermientos: tener acceso con privilegios sobre MySQL
+
+1)
+
+Modificar ~/ptools-local/ptools-init.dat
+
+RDBMS-Server-Hostname localhost
+RDBMS-Server-Port 3306
+RDBMS-Database-Name test_db_sql
+RDBMS-Username pathwaytools
+RDBMS-Password ****
+
+2)
+
+#Entro a Mysql como root
+mysql
+#Crear usuario MySQL y contraseña
+CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'tu_contrasena';
+#Doy privilegios
+GRANT ALL PRIVILEGES ON * . * TO 'nombre_usuario'@'localhost';
+
+#Crear Base de datos
+echo CREATE DATABASE test_db_sql | mysql -u pathwaytools -p -h localhost 
+#Relleno con el esquema de pathwaytools(Del archivo pgdb-schema.sql)
+mysql -u pathwaytools -p -h localhost test_db_sql4 < aic-export/mysql/pgdb-schema.sql
+
+
+3) 
+
+#Realizo la reconstruccion (En este caso con -patho)
+sudo ./pathway-tools  -no-cel-overview -no-web-cel-overview -patho /home/agustin/workspace/pathwaytet-integration/test_pt_sql/
+
+4) 
+
+#Entro a  mysql para explorar la base de datos
+mysql -u pathwaytools -p -h localhost 
+SHOW DATABASES;
+USE test_db_sql;
+SELECT * FROM frames;
+
