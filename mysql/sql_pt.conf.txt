@@ -12,6 +12,11 @@ RDBMS-Password ****
 
 2)
 
+#Modificar "STORAGE" feature del archivo organism-params.dat
+STORAGE	MySQL
+
+3)
+
 #Entro a Mysql como root
 mysql
 #Crear usuario MySQL y contraseña
@@ -25,16 +30,15 @@ echo CREATE DATABASE test_db_sql | mysql -u pathwaytools -p -h localhost
 mysql -u pathwaytools -p -h localhost test_db_sql4 < aic-export/mysql/pgdb-schema.sql
 
 
-3) 
+4) 
 
 #Realizo la reconstruccion (En este caso con -patho)
 sudo ./pathway-tools  -no-cel-overview -no-web-cel-overview -patho /test_pt_sql/
 
-4) 
+5) 
 
 #Entro a  mysql para explorar la base de datos
 mysql -u pathwaytools -p -h localhost 
 SHOW DATABASES;
 USE test_db_sql;
 SELECT * FROM frames;
-
