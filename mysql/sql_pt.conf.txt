@@ -2,13 +2,13 @@ Requermientos: tener acceso con privilegios sobre MySQL
 
 1)
 
-Modificar ~/ptools-local/ptools-init.dat
+#Modificar ~/ptools-local/ptools-init.dat
 
 RDBMS-Server-Hostname localhost
 RDBMS-Server-Port 3306
 RDBMS-Database-Name test_db_sql
 RDBMS-Username pathwaytools
-RDBMS-Password ****
+RDBMS-Password *****
 
 2)
 
@@ -20,14 +20,14 @@ STORAGE	MySQL
 #Entro a Mysql como root
 mysql
 #Crear usuario MySQL y contraseña
-CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'tu_contrasena';
+CREATE USER pathwaytools@localhost IDENTIFIED BY *****;
 #Doy privilegios
-GRANT ALL PRIVILEGES ON * . * TO 'nombre_usuario'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO pathwaytools@localhost;
 
 #Crear Base de datos
 echo CREATE DATABASE test_db_sql | mysql -u pathwaytools -p -h localhost 
 #Relleno con el esquema de pathwaytools(Del archivo pgdb-schema.sql)
-mysql -u pathwaytools -p -h localhost test_db_sql4 < aic-export/mysql/pgdb-schema.sql
+mysql -u pathwaytools -p -h localhost test_db_sql < aic-export/mysql/pgdb-schema.sql
 
 
 4) 
