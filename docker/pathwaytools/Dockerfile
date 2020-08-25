@@ -4,11 +4,14 @@ ENV DEBIAN_FRONTEND=noninteractive \
     DISPLAY=:99
 
 RUN apt-get update && \
-    apt-get install -y xterm openssl inetutils-ping libjpeg8-dev libxml2 xvfb && \
-    apt-get install -y vim less wget
+    apt-get install -y xterm openssl 
+#inetutils-ping libjpeg8-dev libxml2 xvfb && \
+#    apt-get install -y vim less wget
 
 #Agregue dependencia
 RUN apt-get install -y libxm4
+
+#BLAST para el hole-filler
 RUN apt-get install -y ncbi-blast+
 
 #Agregue archivo .ncbirc
@@ -28,18 +31,3 @@ RUN /opt/bin/install-pathway-tools.sh
 
 CMD [ "/opt/bin/run-pathway-tools.sh" ]
 
-
-# Test
-# docker build -t pathway:24.0 .
-# docker run --volume `pwd`:/mnt --publish 1555:1555 --rm --name pathway -it pathway:24.0 /bin/bash
-# docker exec pathway:24.0 /opt/pathway-tools/pathway-tools -python
-# sudo docker run --volume $PWD/batchMode:/localData --volume $PWD/PGDBs:/opt/pathway-tools/aic-export/pgdbs -d -p 5008:5008 pathway:24.0 exec /opt/pathway-tools/pathway-tools -no-cel-overview -no-web-cel-overview -patho /localData
-
-#/opt/pathway-tools/pathway-tools -lisp -no-cel-overview -no-web-cel-overview -patho localData/test_kp13
-#/opt/pathway-tools/pathway-tools -lisp -python
-
-#sudo docker run --volume $PWD:/localData --volume $PWD/PGDBs:/opt/data/ptools-local/pgdbs -it -p 5008:5008 pathway:24.0
-
-
-#1#sudo docker run --name pathwaytools --volume $PWD:/localData --volume $PWD/PGDBs:/opt/data/ptools-local/pgdbs -d -p 5008:5008 pathway:24.0 
-#2#sudo docker exec pathwaytools bash opt/pathway-tools/pathway-tools  -no-cel-overview -no-web-cel-overview -patho localData/test_kp13

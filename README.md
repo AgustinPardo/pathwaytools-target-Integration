@@ -29,9 +29,9 @@ This comand links the . directory to localData container directory, and create t
 
 ### Create the PGDB:
 ```
-sudo docker exec pathwaytools bash opt/pathway-tools/pathway-tools  -no-cel-overview -no-web-cel-overview -patho localData/test_kp13
+sudo docker exec pathwaytools bash opt/pathway-tools/pathway-tools -no-patch-download -no-cel-overview -no-web-cel-overview -patho localData/ejemplo
 ```
-This command create a PGBG itsef, and you should have the genetic-elements.dat, organism-params.dat, and annotation files inside a folder on the . directory. Check the test_kp13 folder to see an example of those files or see PathoLogic Batch Mode section 7.6 of the PathwayTools user's manual for more information.
+This command create a PGBG itsef, and you should have the genetic-elements.dat, organism-params.dat, and annotation files inside a folder on the . directory. Check the ejemplo folder to see an example of those files or see PathoLogic Batch Mode section 7.6 of the PathwayTools user's manual for more information.
 
 
 ### Restart the python service to see the new PGDB:
